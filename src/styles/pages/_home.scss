@@ -406,3 +406,47 @@
   opacity: 0;
 }
 
+.inverted-bg {
+  background-color: #1C1C1C;
+}
+
+.inverted-text {
+  text-transform: none !important;
+  color: #A297B3;
+  font-size: 30px;
+  font-weight: $font-weight-body !important;
+  @include font-subheading2($size: $font-size-small);
+
+  u {
+    color: $color-primary;
+  }
+}
+
+.float-text-container {
+  position: relative;
+  margin: 0 auto;
+}
+.float-text {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 55%; 
+}
+
+.float-text-2 {
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px)  {
+  .float-text {
+    top: -11px;
+    width: 80%;
+  }
+}
+
