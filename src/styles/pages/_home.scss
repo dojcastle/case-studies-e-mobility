@@ -417,6 +417,27 @@
   }
 }
 
+.body-text-inverted {
+  text-transform: none !important;
+  font-weight: $font-weight-subheading2;
+  color: $color-secondary;
+  @include font-subheading2($size: $font-size-subheading2);
+  @include media('<=phone') {
+    @include font-subheading2($size: 2rem);
+  }
+
+  small {
+    @include font-subheading2($size: 1.5rem);
+    font-weight: 400;
+    text-transform: none !important;
+    opacity: 0.5;
+  }
+
+  span {
+    color: $color-primary;
+  }
+}
+
 .icon-green {
   img {
     width: 145px !important;
@@ -495,6 +516,16 @@
   }
 }
 
+.text-block-5 {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  @include media('<=phone') {
+    top: 0px;
+  }
+}
+
 .width-50 {
   width: 50%;
   @include media('<=phone') {
@@ -508,5 +539,32 @@
 .car-img {
   position: relative;
   top: -50%;
+}
+
+.bg-purple {
+  background: #462e66;
+  height: 700px;
+  @include media('<=phone') {
+    height: 760px;
+  }
+}
+
+.btn-primary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 24px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  height: 51px;
+  color: #A566FF;
+  line-height: 1.9px;
+
+  &:hover {
+    background: transparent;
+    color: #FFFFFF;
+    border: 1px solid #A566FF;
+  }
 }
 
