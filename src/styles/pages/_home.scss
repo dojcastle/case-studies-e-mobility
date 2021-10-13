@@ -193,6 +193,10 @@
           text-transform: none !important;
           @include font-subheading2($size: $font-size-small);
           margin-bottom: 18px;
+
+          @include media('<=phone') {
+            @include font-subheading2($size: 0.8rem);
+          }
         }
       }
 
