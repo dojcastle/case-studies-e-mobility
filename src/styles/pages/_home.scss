@@ -186,6 +186,11 @@
         span {
           color: #F6AAAA;
         }
+        small {
+          text-transform: none !important;
+          @include font-subheading2($size: $font-size-small);
+          margin-bottom: 18px;
+        }
       }
 
       .slide-btn {
