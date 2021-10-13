@@ -353,14 +353,21 @@
   text-transform: none !important;
   color: $color-darkpurple;
   @include font-subheading2($size: $font-size-subheading);
+  @include media('<=phone') {
+    @include font-subheading2($size: 1.8rem);
+  }
 }
 
 .subtitle-secondary {
   text-transform: none !important;
   color: $color-lightpurple;
-  line-height: 47.6px !important;
-  font-weight: $font-weight-body !important;
-  @include font-subheading2($size: $font-size-small);
+  font-weight: 400;
+  @include font-body($size: $font-size-subheading2, $weight: $font-weight-body);
+
+  @include media('<=phone') {
+    @include font-subheading2($size: 1.1rem);
+    line-height: normal !important; 
+  }
 
   u {
     color: $color-darkpurple;
@@ -368,18 +375,23 @@
 }
 
 .icon-text {
-  font-size: 20px;
+  @include font-subheading2($size: $font-size-small);
+  text-transform: none !important;
   font-style: normal;
   font-weight: 500;
   color: $color-darkpurple;
   opacity: 0.8;
+
+  @include media('<=phone') {
+    @include font-subheading2($size: 0.8rem);
+  }
 }
 
 .subtitle-secondary-clear {
   text-transform: none !important;
   color: $color-darkpurple;
   line-height: 47.6px !important;
-  font-weight: $font-weight-body !important;
+  @include font-subheading2($weight: $font-weight-body);
   @include font-subheading2($size: $font-size-small);
 }
 
@@ -395,7 +407,14 @@
   text-transform: none !important;
   font-weight: $font-weight-subheading2;
   color: $color-darkpurple;
-  @include font-subheading2($font-size-heading);
+  @include font-subheading2($size: $font-size-heading);
+  @include media('<=phone') {
+    @include font-subheading2($size: 2rem);
+  }
+
+  span {
+    color: $color-primary;
+  }
 }
 
 .icon-green {
@@ -460,5 +479,34 @@
     top: -11px;
     width: 80%;
   }
+}
+
+.text-overlay-container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  @include media('<=phone') {
+    top: 0px;
+  }
+}
+
+.width-50 {
+  width: 50%;
+  @include media('<=phone') {
+    width: 80%;
+  }
+}
+.margin-auto {
+  margin: 0 auto;
+}
+
+.car-img {
+  position: relative;
+  top: -50%;
 }
 
