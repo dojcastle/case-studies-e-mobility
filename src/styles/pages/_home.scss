@@ -372,6 +372,14 @@
   u {
     color: $color-darkpurple;
   }
+
+  small {
+    @include font-body($size: $font-size-subheading2, $weight: $font-weight-body);
+    text-transform: none !important;
+    @include media('<=phone') {
+      @include font-subheading2($size: 0.8rem);
+    }
+  }
 }
 
 .icon-text {
@@ -612,6 +620,37 @@
   }
 }
 
+.bg-purple-3 {
+  background: #452E66;
+  height: 592px;
+  @include media('<=phone') {
+    height: 850px;
+  }
+}
+
+.img-container-4 {
+  position: absolute;
+  width: 50%;
+  bottom: -442px;
+  z-index: 9;
+}
+
+.pink-bg-container {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 234px;
+
+  @include media('<=phone') {
+    top: 40px;
+  }
+}
+
+.bg-gray {
+  background: #F8F9FA;
+}
 
 .btn-primary {
   display: flex;
