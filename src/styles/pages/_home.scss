@@ -436,6 +436,36 @@
   span {
     color: $color-primary;
   }
+
+  div {
+    opacity: 0.5;
+  }
+}
+
+.body-text-inverted-2 {
+  text-transform: none !important;
+  font-weight: $font-weight-subheading2;
+  color: $color-secondary;
+  font-weight: 400;
+  @include font-body($size: $font-size-subheading2, $weight: $font-weight-body);
+  @include media('<=phone') {
+    @include font-subheading2($size: 2rem);
+  }
+
+  small {
+    @include font-subheading2($size: 1.5rem);
+    font-weight: 400;
+    text-transform: none !important;
+    opacity: 0.5;
+  }
+
+  span {
+    color: $color-primary;
+  }
+
+  div {
+    opacity: 0.5;
+  }
 }
 
 .icon-green {
@@ -506,6 +536,21 @@
   position: relative;
 }
 
+.inverted-icon-wrapper {
+  width: 145px;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: -75px;
+  left: 0;
+  right: 0;
+
+  @include media('<=phone') {
+    width: 110px;
+    top: -56px;
+  }
+}
+
 .text-block {
   position: absolute;
   top: 200px;
@@ -516,9 +561,19 @@
   }
 }
 
+.text-block-4 {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  right: 0;
+  @include media('<=phone') {
+    top: 72px;
+  }
+}
+
 .text-block-5 {
   position: absolute;
-  top: 80px;
+  top: 155px;
   left: 0;
   right: 0;
   @include media('<=phone') {
@@ -545,9 +600,18 @@
   background: #462e66;
   height: 700px;
   @include media('<=phone') {
-    height: 760px;
+    height: 356px;
   }
 }
+
+.bg-purple-2 {
+  background: #452E66;
+  height: 592px;
+  @include media('<=phone') {
+    height: 850px;
+  }
+}
+
 
 .btn-primary {
   display: flex;
@@ -567,4 +631,3 @@
     border: 1px solid #A566FF;
   }
 }
-
