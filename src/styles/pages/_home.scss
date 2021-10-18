@@ -370,7 +370,7 @@
   }
 
   u {
-    color: $color-darkpurple;
+    color: $color-primary;
   }
 
   small {
@@ -379,6 +379,10 @@
     @include media('<=phone') {
       @include font-subheading2($size: 0.8rem);
     }
+  }
+
+  span {
+    color: $color-primary;
   }
 }
 
@@ -421,7 +425,7 @@
   }
 
   span {
-    color: $color-primary;
+    color: #F6AAAA;
   }
 }
 
@@ -473,6 +477,9 @@
 
   div {
     opacity: 0.5;
+  }
+  u {
+    color: #F3D882;
   }
 }
 
@@ -631,7 +638,7 @@
 .img-container-4 {
   position: absolute;
   width: 50%;
-  bottom: -442px;
+  bottom: -362px;
   z-index: 9;
 }
 
