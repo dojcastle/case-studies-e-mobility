@@ -655,6 +655,11 @@
   width: 50%;
   bottom: -362px;
   z-index: 9;
+
+  @include media('<=phone') {
+    bottom: -185px;
+    width: 100%;
+  }
 }
 
 .pink-bg-container {
