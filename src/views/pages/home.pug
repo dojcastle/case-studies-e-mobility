@@ -59,28 +59,31 @@ block App
       section#content
         .container-full
           .content-wrap.content-0
-            .row.mb-0
-              .col-lg-6.px-0
-                img(src="/train-ride.jpg" alt="Germany train")
-              .col-lg-6.px-0
-                img(src="/germany-collage.png" alt="Germany")
-            .row.mb-0
-              .col-lg-6.px-0
-                .d-flex.justify-content-center.align-items-center.text-center.my-5.mx-2 
-                  h4.subtitle-secondary.px-3 I care about sustainability <br> so I have solar panels on my roof and an electric-vehicle.
-                .d-flex.flex-row.justify-content-center.mb-5.mb-lg-0
-                 .icon-green.mx-2
-                  img(src="/sustainable-icon.png" alt="Sustainable")
-                 .icon-green.mx-2
-                  img(src="/renewable-icon.png" alt="Renewable")
-              .col-lg-6.px-0
-                img(src="/germany-village-roof.png" alt="Germany village roof")
-            .row.mb-0
-              .col-lg-6.px-0
-                 img(src="/pump.png" alt="Charge")
-              .col-lg-6.d-flex.px-0
-                .col-lg-10.d-flex.justify-content-center.align-items-center.my-5.mx-4
-                  h4.subtitle-secondary Even if I’m just 35 Km away from Berlin, the capital is in its own region, so every time I travel to the city I find a different charging operator for my EV that has different rates and conditions from my home.
+            .container
+              .row.mb-0
+                .col-lg-6.px-0
+                  img(src="/train-ride.jpg" alt="Germany train")
+                .col-lg-6.px-0
+                  img(src="/germany-collage.png" alt="Germany")
+            .container      
+              .row.mb-0
+                  .col-lg-6.px-0
+                    .d-flex.justify-content-center.align-items-center.text-center.my-5.mx-2 
+                      h4.subtitle-secondary.px-3 I care about sustainability <br> so I have solar panels on my roof and an electric-vehicle.
+                    .d-flex.flex-row.justify-content-center.mb-5.mb-lg-0
+                      .icon-green.mx-2
+                        img(src="/sustainable-icon.png" alt="Sustainable")
+                      .icon-green.mx-2
+                        img(src="/renewable-icon.png" alt="Renewable")
+                  .col-lg-6.px-0
+                    img(src="/germany-village-roof.png" alt="Germany village roof")
+            .container        
+              .row.mb-0
+                .col-lg-6.px-0
+                  img(src="/pump.png" alt="Charge")
+                .col-lg-6.d-flex.px-0
+                  .col-lg-10.d-flex.justify-content-center.align-items-center.my-5.mx-3
+                    h4.subtitle-secondary Even if I’m just 35 Km away from Berlin, the capital is in its own region, so every time I travel to the city I find a different charging operator for my EV that has different rates and conditions from my home.
             .row.mb-0
               .col-lg-12
                 .d-flex.inverted-bg.justify-content-center.align-items-center.text-center.py-4.py-lg-5
@@ -133,60 +136,63 @@ block App
                 .width-50.margin-auto.car-img
                  img(src="/car-illustration-1.png" alt="Car")     
           .content-wrap.content-1
-            .row.mb-2
-              .col-lg-6
-                .col-lg-10.d-flex.justify-content-start.align-items-center.m-4.p-0.p-lg-3
-                  h4.subtitle-secondary With the E-Mobility Dashboard we can offer simple and straightforward solutions to our clients, without the risk of greenwashing, because every asset...
-                img(src="/road-mark.png" alt="Charging station marker")    
-              .col-lg-6.px-0
-                img(src="/motor-charging.png" alt="Motor charging")
-                .col-lg-10.d-flex.justify-content-start.align-items-center.my-4.mx-4.mx-lg-0.pt-3.px-2.px-lg-0
+            .container
+              .row.mb-2
+                .col-lg-6
+                  .col-lg-10.d-flex.justify-content-start.align-items-center.p-0
+                    h4.subtitle-secondary With the E-Mobility Dashboard we can offer simple and straightforward solutions to our clients, without the risk of greenwashing, because every asset...
+                  img(src="/road-mark.png" alt="Charging station marker")    
+                .col-lg-6.px-0
+                  img(src="/motor-charging.png" alt="Motor charging")
+                  .col-lg-10.d-flex.justify-content-start.align-items-center.my-4.mx-2.mx-lg-0.pt-3.px-lg-0
                     h4.subtitle-secondary ... whether an EV, a solar panel on the roof of Robert’s house, all charging points and more DERs, ...
-
             .row.mt-5.mb-0
               .col-lg-12
                 img(src="/green-house.png" alt="Solar house")
               .col-lg-12
                 .d-flex.justify-content-center.text-center.bg-gray.py-3.py-lg-5.mx-2
-                  h4.subtitle-secondary <small>Which allows different market participants <br> to <u>trust</u> the underlying assets</small>  
-            .row.mb-0
-              .col-lg-6
-                img(src="/charger2.png" alt="Vehicle charger")
-              .col-lg-6.timeline.px-0.pb-5
-                .mx-2.px-1
-                  img(src="/white-car.png" alt="White car")
-                .d-flex.justify-content-start.align-items-center.my-5.mx-4.pt-3.px-2
-                  h4.subtitle-secondary-clear By aggregating the DER supply, we and other charging point operators can also apply...
-                .d-flex.my-5
-                  .icon-green
-                    img(src="/flower-icon.png" alt="Sustainable icon")
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.pt-3    
-                  h3.body-text ...economies of scale and negotiate better prices for <u>ourselves</u> and for our <u>clients</u>.
+                  h4.subtitle-secondary <small>Which allows different market participants <br> to <u>trust</u> the underlying assets</small>
+            .container          
+              .row.mb-0
+                .col-lg-6
+                  img(src="/charger2.png" alt="Vehicle charger")
+                .col-lg-6.timeline.px-0.pb-5
+                  .mx-2.px-1
+                    img(src="/white-car.png" alt="White car")
+                  .d-flex.justify-content-start.align-items-center.my-5.mx-4.pt-3.px-2
+                    h4.subtitle-secondary-clear By aggregating the DER supply, we and other charging point operators can also apply...
+                  .d-flex.my-5
+                    .icon-green
+                      img(src="/flower-icon.png" alt="Sustainable icon")
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.pt-3    
+                    h3.body-text ...economies of scale and negotiate better prices for <u>ourselves</u> and for our <u>clients</u>.
           .content-wrap.content-2
-            .row.mb-5
-              .col-lg-6
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-0.px-lg-2.pt-3    
-                  h3.body-text Instead of buying or renting batteries and other assets…
-                img(src="/car-illustration-3.png" alt="Green car illustration")  
-              .col-lg-6
-                img(src="/street.png" alt="Street charging")
-                .col-lg-10.d-flex.justify-content-start.align-items-center.mx-4.mx-lg-0.my-5.pt-3
-                  h4.subtitle-secondary ...we can simply <span>tap into a network</span> of almost half a million electric-vehicles that already exist <span>distributed across the country</span> to do the same thing. With the E-Mobility Dashboard, we can ask these cars to charge at a certain rate or release energy when we need it to <span>balance the grid</span>
-                .col-lg-10.d-flex.justify-content-start.align-items-center.mx-4.mx-lg-0.my-5.pt-3
-                  h4.subtitle-secondary By charging cars when there is oversupply of electricity from renewables, we reduce the need for EVs to charge when the grid is congested or being primarily powered by fossil fuel-based power plants.  
-            .row.mb-0
-              .col-lg-4
-                .d-flex.justify-content-start.align-items-center.mx-4.my-5.pt-3.px-lg-2   
-                  h3.body-text This ultimately helps to <u>decarbonize the grid faster</u>
-                .d-flex.justify-content-start.align-items-center.mx-4.px-0.px-lg-2  
-                  h4.subtitle-secondary and through economic incentives, stimulates the demand and ultimate growth of the electric mobility industry.
+            .container
+              .row.mb-5
+                .col-lg-6
+                  .d-flex.justify-content-start.align-items-center.my-4.px-0.pt-3    
+                    h3.body-text Instead of buying or renting batteries and other assets…
+                  img(src="/car-illustration-3.png" alt="Green car illustration")  
+                .col-lg-6
+                  img(src="/street.png" alt="Street charging")
+                  .col-lg-10.d-flex.justify-content-start.align-items-center.mx-lg-0.my-5.pt-3
+                    h4.subtitle-secondary ...we can simply <span>tap into a network</span> of almost half a million electric-vehicles that already exist <span>distributed across the country</span> to do the same thing. With the E-Mobility Dashboard, we can ask these cars to charge at a certain rate or release energy when we need it to <span>balance the grid</span>
+                  .col-lg-10.d-flex.justify-content-start.align-items-center.mx-lg-0.my-5.pt-3
+                    h4.subtitle-secondary By charging cars when there is oversupply of electricity from renewables, we reduce the need for EVs to charge when the grid is congested or being primarily powered by fossil fuel-based power plants.  
+            .container
+              .row.mb-0
+                .col-lg-4
+                  .d-flex.justify-content-start.align-items-center.my-5.pt-3  
+                    h3.body-text This ultimately helps to <u>decarbonize the grid faster</u>
+                  .d-flex.justify-content-start.align-items-center.px-0 
+                    h4.subtitle-secondary and through economic incentives, stimulates the demand and ultimate growth of the electric mobility industry.
 
-              .col-lg-8
-                img(src="/car-charging-2.png" alt="Car charging")
-              .col-lg-6
-              .col-lg-6.timeline.py-4
-                .d-flex.opacity-0
-                  h4 space line <br> space line
+                .col-lg-8
+                  img(src="/car-charging-2.png" alt="Car charging")
+                .col-lg-6
+                .col-lg-6.timeline.py-4
+                  .d-flex.opacity-0
+                    h4 space line <br> space line
             .container      
               .row.mb-0
                 .col-lg-12
@@ -196,69 +202,73 @@ block App
                         img(src="/stack-icon.png" alt="tech stack icon")
                       .text-block-4.d-flex.align-items-center.justify-content-center.text-center.mx-3.px-0.mx-lg-5.px-lg-5.flex-column
                         h3.body-text-inverted-2.mt-4.mt-lg-0.mx-4.mx-lg-4 The EW Tech Stack, also allows grid operators like Elia-50Hz to <u>offer new services</u> directly to the end customers: by assigning <u>digital identities</u> to all EV, charging points, users and other DERs.<br><br> <div>A transmission operator can finally get visibility at the device level, a view that is finally shared with all grid operators.</div>
-            .row.mb-0
-              .col-lg-6
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-0.px-lg-2.pt-5    
-                  h3.body-text-2 Because it offers
-              .col-lg-6.timeline.px-0
-                .icon-green.mt-5.pt-3
-                    img(src="/check-icon.png" alt="Check list")
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
-                  h4.subtitle-secondary A more resilient <u>distributed ledger</u> to anchor identities making multiple siloed IT systems <u>interoperable</u>
-              .col-lg-6     
-              .col-lg-6.timeline.px-0
-                .icon-green.mt-5.pt-3
-                    img(src="/check-icon.png" alt="Check list")
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
-                  h4.subtitle-secondary where all <u>data can be automatically trusted</u> by all market players
-              .col-lg-6     
-              .col-lg-6.timeline.px-0
-                .icon-green.mt-5.pt-3
-                    img(src="/check-icon.png" alt="Check list")
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
-                  h4.subtitle-secondary where the <u>DID</u> model ensures strict observation of GDPR and privacy laws, reducing regulatory risk
-              .col-lg-6     
-              .col-lg-6.timeline.px-0
-                .icon-green.mt-5.pt-3
-                    img(src="/check-icon.png" alt="Check list")
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
-                  h4.subtitle-secondary that is also <u>cheaper and faster to implement</u> than any other solution we could come up with
-              .col-lg-6     
-              .col-lg-6.timeline.px-0.pb-5
-                .icon-green.mt-5.pt-3
-                    img(src="/check-icon.png" alt="Check list")
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
-                  h4.subtitle-secondary And that by its very nature of decentralized technology enables <u>permissionless innovation</u> and simplifies access to the market for any new business
+            .container   
+              .row.mb-0
+                .col-lg-6
+                  .d-flex.justify-content-start.align-items-center.my-4.px-0.pt-5    
+                    h3.body-text-2 Because it offers
+                .col-lg-6.timeline.px-0
+                  .icon-green.mt-5.pt-3
+                      img(src="/check-icon.png" alt="Check list")
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
+                    h4.subtitle-secondary A more resilient <u>distributed ledger</u> to anchor identities making multiple siloed IT systems <u>interoperable</u>
+                .col-lg-6     
+                .col-lg-6.timeline.px-0
+                  .icon-green.mt-5.pt-3
+                      img(src="/check-icon.png" alt="Check list")
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
+                    h4.subtitle-secondary where all <u>data can be automatically trusted</u> by all market players
+                .col-lg-6     
+                .col-lg-6.timeline.px-0
+                  .icon-green.mt-5.pt-3
+                      img(src="/check-icon.png" alt="Check list")
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
+                    h4.subtitle-secondary where the <u>DID</u> model ensures strict observation of GDPR and privacy laws, reducing regulatory risk
+                .col-lg-6     
+                .col-lg-6.timeline.px-0
+                  .icon-green.mt-5.pt-3
+                      img(src="/check-icon.png" alt="Check list")
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
+                    h4.subtitle-secondary that is also <u>cheaper and faster to implement</u> than any other solution we could come up with
+                .col-lg-6     
+                .col-lg-6.timeline.px-0.pb-5
+                  .icon-green.mt-5.pt-3
+                      img(src="/check-icon.png" alt="Check list")
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-2.px-lg-4.pt-3    
+                    h4.subtitle-secondary And that by its very nature of decentralized technology enables <u>permissionless innovation</u> and simplifies access to the market for any new business
             .row
               .col-lg-12
                 img(src="/pink-bg.png" alt="banner")           
           .content-wrap.content-3
-            .row.mb-0
-              .col-lg-6.h-100
-                .d-flex.justify-content-start.align-items-center.my-4.mx-4.px-0.px-lg-2.pt-3.pb-5    
-                  h4.subtitle-secondary for a rapidly increasing number of vehicles, charge points, and users…
-                .d-flex.justify-content-start.align-items-end.mt-5.mb-4.mx-4.px-0.px-lg-2.pt-5    
-                  h3.body-text for now in Germany and Belgium, but with the potential <u>to expand</u> to the <u>whole world</u>.
-              .col-lg-6.px-0
-                img(src="/workspace.png" alt="Workspace")
-            .row.mb-0      
-              .col-lg-6.px-0
-                img(src="/circuit-board.png" alt="Motherboard")
-              .col-lg-6.timeline.px-0
-                .icon-list.mt-5.pt-3
-                    img(src="/one-icon.png" alt="Check list")
-                .d-flex.justify-content-start.align-items-center.my-4.mx-5.px-2.pt-3.pb-5    
-                  h4.subtitle-secondary <u>Digital identities</u> are securely anchored to the Energy Web Chain and used as a starting point for any E-Mobility event including charging, discharging, paying, getting paid, or communicating with grid operators.
-                .icon-list.mt-5.pt-3
-                    img(src="/two-icon.png" alt="Check list")
-                .d-flex.justify-content-start.align-items-center.my-4.mx-5.px-2.pt-3.pb-5    
-                  h4.subtitle-secondary Interactions between E-Mobility assets, users, and organizations are powered by the <u>Utility Layer</u> of the Energy Web stack—itself secured via <u>staked tokens</u> from the Energy Web Community.
-            .row.mb-0 
-              .col-lg-6
-                .d-flex.justify-content-start.align-items-center.mt-5.mb-4.mx-4.px-2.pt-5.pb-5    
-                  h3.body-text The programmability of on chain smart contracts and by the convenience of settling payments in Crypto
-              .col-lg-6.timeline.px-0
-                img(src="/micro-transactions.png" alt="Transactions")
+            .container
+              .row.mb-0
+                .col-lg-6.h-100.px-0
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-2.mx-lg-0.px-0.pt-3.pb-5    
+                    h4.subtitle-secondary for a rapidly increasing number of vehicles, charge points, and users…
+                  .d-flex.justify-content-start.align-items-end.mt-5.mb-4.mx-2.mx-lg-0.px-0.pt-5    
+                    h3.body-text for now in Germany and Belgium, but with the potential <u>to expand</u> to the <u>whole world</u>.
+                .col-lg-6.px-0
+                  img(src="/workspace.png" alt="Workspace")
+            .container      
+              .row.mb-0      
+                .col-lg-6.px-0
+                  img(src="/circuit-board.png" alt="Motherboard")
+                .col-lg-6.timeline.px-0
+                  .icon-list.mt-5.pt-3
+                      img(src="/one-icon.png" alt="Check list")
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-5.px-2.pt-3.pb-5    
+                    h4.subtitle-secondary <u>Digital identities</u> are securely anchored to the Energy Web Chain and used as a starting point for any E-Mobility event including charging, discharging, paying, getting paid, or communicating with grid operators.
+                  .icon-list.mt-5.pt-3
+                      img(src="/two-icon.png" alt="Check list")
+                  .d-flex.justify-content-start.align-items-center.my-4.mx-5.px-2.pt-3.pb-5    
+                    h4.subtitle-secondary Interactions between E-Mobility assets, users, and organizations are powered by the <u>Utility Layer</u> of the Energy Web stack—itself secured via <u>staked tokens</u> from the Energy Web Community.
+            .container  
+              .row.mb-0 
+                .col-lg-6.px-0
+                  .d-flex.justify-content-start.align-items-center.mt-5.mb-4.mx-2.mx-lg-2.pt-5.pb-5    
+                    h3.body-text The programmability of on chain smart contracts and by the convenience of settling payments in Crypto
+                .col-lg-6.timeline.px-0
+                  img(src="/micro-transactions.png" alt="Transactions")
             .row.mb-0
               .col-lg-12
                 img(src="/man-working.png" alt="man working")
@@ -270,39 +280,42 @@ block App
                     img(src="/accelerate.png" alt="Transactions")            
 
           .content-wrap.content-4
-            .row.mb-0
-              .col-lg-6.px-0
-                img(src="/charging-5.png" alt="charging car")
-              .col-lg-6.timeline.d-flex.h-100
-                .d-flex.justify-content-center.align-items-center.py-4.py-lg-0  
-                  .d-flex.flex-column.justify-content-center.text-center
-                    .icon-green
-                      img(src="/drivers-icon.png" alt="car icon")
-                    .icon-text.mx-4.p-3 Drivers
-                    .text-center.px-3  
-                      h4.subtitle-secondary By paying them to charge or not charge at specific times of day.
-            .row.mb-0
-              .col-lg-6.d-flex.h-100
-                .d-flex.justify-content-center.align-items-center.py-4.py-lg-0 
-                  .d-flex.flex-column.justify-content-center.text-center
-                    .icon-green
-                      img(src="/electric-mobility-icon.png" alt="car icon")
-                    .icon-text.mx-4.p-3 Electric Mobility Industry 
-                    .text-center.px-4  
-                      h4.subtitle-secondary Increasing the value of electric vehicle ownership
-              .col-lg-6.timeline.px-0.pb-5
-                img(src="/riding-motorcycle.png" alt="electric bike")
-            .row.mb-0
-              .col-lg-6.px-0
-                img(src="/grid-operator.png" alt="grid operator")
-              .col-lg-6.timeline.d-flex.h-100
-                .d-flex.justify-content-center.align-items-center.py-4.py-lg-0  
-                  .d-flex.flex-column.justify-content-center.text-center
-                    .icon-green
-                      img(src="/grid-operators-icon.png" alt="grid operator")
-                    .icon-text.mx-4.p-3 Grid operators
-                    .text-center.px-3  
-                      h4.subtitle-secondary Giving utilities the ability to communicate in near real-time with electric vehicles.
+            .container 
+              .row.mb-0
+                .col-lg-6.px-0
+                  img(src="/charging-5.png" alt="charging car")
+                .col-lg-6.timeline.d-flex.h-100
+                  .d-flex.justify-content-center.align-items-center.py-4.py-lg-0  
+                    .d-flex.flex-column.justify-content-center.text-center
+                      .icon-green
+                        img(src="/drivers-icon.png" alt="car icon")
+                      .icon-text.mx-4.p-3 Drivers
+                      .text-center.px-3  
+                        h4.subtitle-secondary By paying them to charge or not charge at specific times of day.
+            .container            
+              .row.mb-0
+                .col-lg-6.d-flex.h-100
+                  .d-flex.justify-content-center.align-items-center.py-4.py-lg-0 
+                    .d-flex.flex-column.justify-content-center.text-center
+                      .icon-green
+                        img(src="/electric-mobility-icon.png" alt="car icon")
+                      .icon-text.mx-4.p-3 Electric Mobility Industry 
+                      .text-center.px-4  
+                        h4.subtitle-secondary Increasing the value of electric vehicle ownership
+                .col-lg-6.timeline.px-0.pb-5
+                  img(src="/riding-motorcycle.png" alt="electric bike")
+            .container       
+              .row.mb-0
+                .col-lg-6.px-0
+                  img(src="/grid-operator.png" alt="grid operator")
+                .col-lg-6.timeline.d-flex.h-100
+                  .d-flex.justify-content-center.align-items-center.py-4.py-lg-0  
+                    .d-flex.flex-column.justify-content-center.text-center
+                      .icon-green
+                        img(src="/grid-operators-icon.png" alt="grid operator")
+                      .icon-text.mx-4.p-3 Grid operators
+                      .text-center.px-3  
+                        h4.subtitle-secondary Giving utilities the ability to communicate in near real-time with electric vehicles.
             .row.mb-0
               .col-lg-6.py-5
                 img(src="/charger2.png" alt="Vehicle charger")
