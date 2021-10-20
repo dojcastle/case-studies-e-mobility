@@ -544,7 +544,15 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 60%; 
+  width: 57%; 
+}
+
+.bg-gray {
+  background-color: #F8F9FA;
+}
+
+.width-70 {
+  width: 70%;
 }
 
 .float-text-2 {
@@ -644,9 +652,17 @@
 
 .bg-purple-3 {
   background: #452E66;
-  height: 592px;
+  height: 300px;
   @include media('<=phone') {
-    height: 850px;
+    height: 332px;
+  }
+}
+
+.bg-purple-4 {
+  background: #452E66;
+  height: 200px;
+  @include media('<=phone') {
+    height: 100px;
   }
 }
 
@@ -702,5 +718,90 @@
     background: transparent;
     color: #FFFFFF;
     border: 1px solid #A566FF;
+  }
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.list-position {
+  left: 50px;
+  top: 50px;
+
+  @include media('<=phone') {
+  left: 20px;
+  top: 20px;
+  }
+
+}
+
+.svg-transform-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  @include media('<=phone') {
+    display: initial;
+    top: -95px;
+    left: 33px;
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+    -webkit-transform-origin: 0%;
+    transform-origin: 0%;
+  }
+}
+
+.svg-transform-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  @include media('<=phone') {
+    -webkit-transform: scale(0.40);
+    transform: scale(0.40);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+  }
+}
+
+.svg-transform-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 158px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  @include media('<=phone') {
+    top: -20px;
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+  }
+}
+
+.svg-transform-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  right: 0;
+  margin: 0 auto;
+  top: -50px;
+  width: auto;
+  @include media('<=phone') {
+    top: -88px;
+    width: 100vw;
+    left: initial;
   }
 }
