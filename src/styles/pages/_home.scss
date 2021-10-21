@@ -498,9 +498,22 @@
   }
 }
 
+.icon-1st-section {
+  img {
+    width: 120px !important;
+    @include media('<=phone') {
+      width: 110px !important;
+    }
+  }
+}
+
 .icon-green {
   img {
     width: 145px !important;
+
+    @include media('<=phone') {
+      width: 110px !important;
+    }
   }
 }
 
@@ -753,11 +766,20 @@
     top: -95px;
     left: 33px;
     -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
     transform: scale(0.4);
     -webkit-transform-origin: 0%;
+    -moz-transform-origin: 0%;
     transform-origin: 0%;
+    }
   }
-}
+
+//   @media screen and (max-width: 375px){
+//     -webkit-transform-origin: -9%;
+//     -moz-transform-origin: -9%;
+//     transform-origin: -9%;
+//   }
+// }
 
 .svg-transform-2 {
   display: flex;
