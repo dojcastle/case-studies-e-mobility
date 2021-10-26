@@ -428,6 +428,18 @@
   span {
     color: #F6AAAA;
   }
+
+  u {
+    color: $color-primary;
+    text-decoration: none !important;
+  }
+
+  div {
+    margin-right: 20px;
+    @include media('<=phone') {
+      margin-right: 0;
+    }
+  }
 }
 
 .body-text-2 {
