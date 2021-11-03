@@ -755,6 +755,10 @@
 
 .position-absolute {
   position: absolute;
+  &.x-center {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .list-position {
@@ -837,6 +841,10 @@
   margin: 0 auto;
   top: -50px;
   width: auto;
+  &.x-center {
+    left: 50%;
+    transform: translateX(-50%);
+  }
   @include media('<=phone') {
     top: -88px;
     width: 100vw;
